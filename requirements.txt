@@ -5,3 +5,7 @@ sqlalchemy
 jupyterlab
 matplotlib
 seaborn
+scikit-learn
+torch
+torchvision
+torchaudio
