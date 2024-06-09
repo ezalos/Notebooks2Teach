@@ -4,6 +4,7 @@ fastparquet
 sqlalchemy
 jupyterlab
 matplotlib
+ipympl
 seaborn
 scikit-learn
 torch
