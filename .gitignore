@@ -3,3 +3,5 @@ __pychache__
 *.pyc
 .envrc
 /data
+!/data/ML_System.drawio.png
+.DS_Store

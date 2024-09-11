@@ -1,7 +1,7 @@
 # Missing from the course
 
 - Python Positionning
-  - Overview
+  - Overview: 1 slide par tool 
     - agate
     - bokeh
     - pybrain
@@ -32,4 +32,9 @@
     - Fine-tuning :
       - vgg / resnet
       - EXERCISE: Satellite imagery classification, from finetuning
-
+  - Pytorch courses ideas:
+    - finetuning
+    - transfer learning
+    - data augmentation
+	- hyper-parameter search
+	- ...
