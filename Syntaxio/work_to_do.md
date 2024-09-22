@@ -38,3 +38,6 @@
     - data augmentation
 	- hyper-parameter search
 	- ...
+
+
+# Translate this notebook cell in english, it most generally is in markdown format.
