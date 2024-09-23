@@ -40,4 +40,4 @@
 	- ...
 
 
-# Translate this notebook cell in english, it most generally is in markdown format.
+# Translate this notebook cell in english, it most generally is in markdown format. Don't start your lines with # like if it were comments.
