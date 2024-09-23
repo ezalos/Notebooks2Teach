@@ -1,6 +1,7 @@
 numpy
-pandas
-fastparquet
+
+-r Syntaxio/03-Python-for-Data-Analysis-Pandas/requirements.txt
+
 sqlalchemy
 jupyterlab
 matplotlib
