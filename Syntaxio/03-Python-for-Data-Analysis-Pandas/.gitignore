@@ -1,2 +1,3 @@
 data/*
 !data/heart.csv
+!data/sresa1b_ncar_ccsm3-example.nc

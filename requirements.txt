@@ -1,6 +1,7 @@
 numpy
 
 -r Syntaxio/03-Python-for-Data-Analysis-Pandas/requirements.txt
+-r Syntaxio/05-Data-Visualization-with-Matplotlib/requirements.txt
 
 sqlalchemy
 jupyterlab

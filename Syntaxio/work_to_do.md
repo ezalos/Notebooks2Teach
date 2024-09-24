@@ -11,15 +11,15 @@
     - caffe
 - Calculations and Graphs
   - Basemap is absent in matplotlib
-  - Introduction to Open-cv:
-    - Image Thresholding
-    - Edge detection
-    - Contour Detection
   - ...
 - Relational Data Manipulation
   - h5py
   - netCDF
   - ...
+- Introduction to Open-cv:
+  - Image Thresholding
+  - Edge detection
+  - Contour Detection
 - Machine Learning & Deep Learning
   - Mxnet / caffe
   - PyTorch / TensorFlow:
@@ -40,4 +40,8 @@
 	- ...
 
 
-# Translate this notebook cell in english, it most generally is in markdown format. Don't start your lines with # like if it were comments.
+# 
+
+Translate this notebook cell in english, it most generally is in markdown format. Don't start your lines with # (especially if there was none in the first place), unless if this is a title. 
+
+If necessary do not hesitate to add some formatting to the text and line breaks to make it more readable.

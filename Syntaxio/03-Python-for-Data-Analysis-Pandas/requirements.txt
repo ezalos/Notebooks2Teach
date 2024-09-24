@@ -1,8 +1,20 @@
 numpy
 pandas
+
+# pandas from parquet
 fastparquet
+
+# pandas from excel
 openpyxl
 
+# pandas from html
 lxml
 html5lib
 beautifulsoup4
+
+# NetCDF
+xarray
+netcdf4
+
+#hdf5
+tables
