@@ -1,0 +1,8 @@
+numpy
+pandas
+fastparquet
+openpyxl
+
+lxml
+html5lib
+beautifulsoup4
