@@ -24,3 +24,32 @@ Plan du cours:
   - 3 Let's get analytical
     -> We can use gradient descent to find the minimum of the cost function
 	-> computational graph
+
+
+
+Part 1: 
+- We can plot a line to estimate !
+  - It can be defined with 2 parameters: a & b
+- Let's move them manually...
+  - No error shown
+- How can we be sure it's the best possible line ? 
+  - Introduction to the cost function 
+  - We seems to be good ! 
+
+
+Part 2: 
+- They loved it ! There is 20 auction house calling you for tomorrow. 
+  - Impossible to do it manually !
+
+
+Let's start with a naive and un-optimized idea : 
+- We can sample random points and hope to get lucky
+
+It works, but we can do better !
+
+
+Part 3: 
+- Let's take a linear regression with random coefficients
+- Would'nt it be awesome to know in which direction to update the parameters so we can reduce our error ?
+  - We can ! Let's add epsilon and see how the error evolves
+
