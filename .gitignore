@@ -26,3 +26,6 @@ uv.lock
 
 # Misc scratch files
 hello.py
+
+# Accidental duplicates
+PyTorch/3_PyTorch CNN Finetuning copy/
