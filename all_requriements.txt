@@ -1,0 +1,37 @@
+torch==2.2.2
+torchvision
+
+gdown
+
+triton==2.0.0.dev20221120; sys.platform == "darwin" and platform.machine == 'arm64'
+triton; sys.platform != "darwin" and platform.machine != 'arm64'
+
+pandas
+
+# pandas from parquet
+fastparquet
+
+# pandas from excel
+openpyxl
+
+# pandas from html
+lxml
+html5lib
+beautifulsoup4
+
+# NetCDF
+xarray
+netcdf4
+
+#hdf5
+tables
+matplotlib
+basemap
+plotly
+chart_studio
+pandas-datareader
+yfinance
+sklearn
+numpy
+seaborn
+pydot
