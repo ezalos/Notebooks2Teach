@@ -7,3 +7,22 @@ __pychache__
 !/data/linear_regression.png
 !/data/ML_System.png
 .DS_Store
+to_share
+
+# Entire directories to exclude
+AMTech/
+sklearn/data/
+
+# Workspace & editor files
+*.code-workspace
+
+# Archives & binaries
+*.zip
+*.pth
+
+# Python environment
+.python-version
+uv.lock
+
+# Misc scratch files
+hello.py
