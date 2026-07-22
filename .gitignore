@@ -12,6 +12,8 @@ to_share
 # Entire directories to exclude
 AMTech/
 sklearn/data/
+# Downloaded datasets (oxford-iiit-pet etc.) — fetched by the notebooks on demand
+intuitive_lessons/data/
 
 # Workspace & editor files
 *.code-workspace
