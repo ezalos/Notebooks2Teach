@@ -1,0 +1,20 @@
+[project]
+name = "visa-for-lisa"
+version = "0.1.0"
+description = "Qwasar ML project: predict which Galaxy Bank deposit clients accept a personal loan"
+requires-python = ">=3.13"
+dependencies = [
+    "pandas>=2.3",
+    "numpy>=2.3",
+    "scikit-learn>=1.7",
+    "matplotlib>=3.10",
+    "seaborn>=0.13",
+    "joblib>=1.4",
+    "jupyterlab>=4.4",
+    "ipykernel>=6.30",
+    "nbconvert>=7.16",
+    "requests>=2.32",
+]
+
+[dependency-groups]
+dev = ["pytest>=8"]

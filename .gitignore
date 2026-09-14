@@ -31,3 +31,9 @@ hello.py
 
 # Accidental duplicates
 PyTorch/3_PyTorch CNN Finetuning copy/
+# Qwasar projects: datasets and checkpoints are fetched by the notebooks, never committed
+qwasar/*/data/
+qwasar/*/model.joblib
+!qwasar/*/uv.lock
+qwasar/*/wheelhouse/*
+!qwasar/*/wheelhouse/.gitkeep
