@@ -14,5 +14,10 @@ Run any project:
 cd <project> && uv sync && uv run jupyter lab
 ```
 
+Each project also has a `Dockerfile` (python 3.13 + uv; the DMC one needs `--gpus all`) whose
+default command runs the whole thing headless — see the project READMEs / Dockerfile headers.
+`wheelhouse.py` pre-fetches a project's wheels at 25 MB/s so a Docker build on a rate-capped line
+can install with `--no-index --find-links`.
+
 Notebooks are self-contained (Qwasar accepts only the listed files), so small helpers are
 repeated across notebooks on purpose.

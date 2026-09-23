@@ -1,0 +1,6 @@
+No Looker Studio dashboard: the equivalent interactive dashboard is dashboard.ipynb in this
+directory (plotly figures + commentary, fed by results/*.csv). Open it with:
+
+    uv run jupyter lab dashboard.ipynb
+
+or headless in Docker (see README.md).

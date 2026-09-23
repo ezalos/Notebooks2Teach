@@ -1,0 +1,5 @@
+# Course data and prefetched wheels: bulky, regenerable (get_data.py / wheelhouse.py),
+# and kept out of git the same way the repo's AMTech/ tree is. The restic backup
+# is their safety net, proven during the 2026-09-23 outage recovery.
+data/
+wheelhouse/

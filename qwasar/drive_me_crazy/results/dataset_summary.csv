@@ -1,0 +1,5 @@
+dataset,nodes,timesteps,channels,interval_min,start,end,days,edges,mean_degree,isolated_nodes,zero_readings_pct,mean,p99,max
+PEMS04,307,16992,flow,5,2018-01-01,2018-02-28,59,340,2.21,0,1.59,211.7,632.0,919.0
+PEMS08,170,17856,flow,5,2016-07-01,2016-08-31,62,274,3.22,0,0.35,230.7,590.0,1147.0
+PEMS07,883,28224,flow,5,2017-05-01,2017-08-06,98,866,1.96,0,0.45,308.5,748.0,1498.0
+NYCTaxi,75,17520,inflow+outflow,30,2014-01-01,2014-12-31,365,242,6.45,0,12.01,113.2,696.0,1852.0
