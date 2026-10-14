@@ -37,3 +37,11 @@ qwasar/*/model.joblib
 !qwasar/*/uv.lock
 qwasar/*/wheelhouse/*
 !qwasar/*/wheelhouse/.gitkeep
+
+# Workshops: student data and full graded-project solutions stay local
+workshops/data/
+workshops/reference/
+
+# Artifacts the workshop notebooks create while running
+workshops/**/sample_files/
+workshops/**/*.db
