@@ -45,3 +45,6 @@ workshops/reference/
 # Artifacts the workshop notebooks create while running
 workshops/**/sample_files/
 workshops/**/*.db
+
+# Datasets fetched into any workshop folder
+workshops/**/data/

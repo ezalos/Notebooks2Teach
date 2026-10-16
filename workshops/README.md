@@ -13,6 +13,9 @@ explanations with exercises they fill in. Every workshop has a **solved twin** u
 | 01 | [The line, the cost, and the exact answer](my_linear_regression/01_least_squares.ipynb) | **My Linear Regression** — hypothesis, MSE, normal equation, residuals |
 | 02 | [Walking downhill](my_linear_regression/02_gradient_descent.ipynb) | **My Linear Regression** — the gradient, the update rule, convexity |
 | 03 | [The learning rate, and why scaling exists](my_linear_regression/03_learning_rate_and_diagnostics.ipynb) | **My Linear Regression** — four regimes, scaling, loss-curve diagnosis, extrapolation |
+| 01 | [Cleaning is a chain of decisions](my_mobapp_studio/01_cleaning_as_decisions.ipynb) | **My MobApp Studio** — the corrupt row, duplicate scrapes (+123 % on the headline), missing-not-at-random |
+| 02 | [Charts that do not lie](my_mobapp_studio/02_charts_that_dont_lie.ipynb) | **My MobApp Studio** — the mean-price trap, log scales, bucketed installs, totals vs ratios |
+| 03 | [The report is the deliverable](my_mobapp_studio/03_report_as_experiment.ipynb) | **My MobApp Studio** — assumptions, claims-to-evidence, limitations, the next experiment |
 
 ## Running a session
 
@@ -25,7 +28,8 @@ Everything runs on the repository's existing environment (pandas, numpy, matplot
 ipywidgets, scikit-learn, sqlite3). **No dataset download is needed**: each notebook generates
 the data it uses, and the M and A workshops build six-row surrogate files carrying the same
 pathologies as the real exports (mixed dialects, type prefixes, six gender encodings, a
-placeholder email). `uv run get_data.py` fetches the real exports for the project itself.
+placeholder email). The MobApp Studio notebooks use the real Google Play export if
+`uv run get_data.py` has fetched it, and generate an equivalent stand-in if not.
 
 ## How the notebooks are built
 
